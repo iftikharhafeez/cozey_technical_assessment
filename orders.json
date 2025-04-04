@@ -1,0 +1,81 @@
+[
+  {
+    "order_id": "1001",
+    "order_total": 59.98,
+    "order_date": "2023-09-15T12:00:00Z",
+    "shipping_address": "100 Dundas Street East, Toronto, ON",
+    "customer_name": "John Smith",
+    "customer_email": "john@example.com",
+    "line_items": [
+      {
+        "line_item_id": "LI-001",
+        "product_id": "BOX-VAL-01",
+        "product_name": "Valentines Box",
+        "price": 29.99
+      },
+      {
+        "line_item_id": "LI-002",
+        "product_id": "BOX-BDAY-01",
+        "product_name": "Birthday Box",
+        "price": 29.99
+      }
+    ]
+  },
+  {
+    "order_id": "1002",
+    "order_total": 29.99,
+    "order_date": "2023-09-15T13:00:00Z",
+    "shipping_address": "100 Queen Street East, Toronto, ON",
+    "customer_name": "Rob Smith",
+    "customer_email": "rob@example.com",
+    "line_items": [
+      {
+        "line_item_id": "LI-003",
+        "product_id": "BOX-VAL-01",
+        "product_name": "Valentines Box",
+        "price": 29.99
+      }
+    ]
+  },
+  {
+    "order_id": "1003",
+    "order_total": 29.99,
+    "order_date": "2023-09-15T14:00:00Z",
+    "shipping_address": "100 King Street East, Toronto, ON",
+    "customer_name": "Dan Smith",
+    "customer_email": "dan@example.com",
+    "line_items": [
+      {
+        "line_item_id": "LI-004",
+        "product_id": "BOX-BDAY-01",
+        "product_name": "Birthday Box",
+        "price": 29.99
+      }
+    ]
+  },
+  {
+    "order_id": "1004",
+    "order_total": 89.97,
+    "order_date": "2025-04-03T18:52:56.178Z",
+    "shipping_address": "1490 Dundas Street East, Toronto, ON",
+    "customer_name": "Iftikhar",
+    "customer_email": "iftikhar@example.com",
+    "line_items": [
+      {
+        "product_id": "BOX-VAL-01",
+        "product_name": "Valentines Box",
+        "price": 29.99
+      },
+      {
+        "product_id": "BOX-BDAY-01",
+        "product_name": "Birthday Box",
+        "price": 29.99
+      },
+      {
+        "product_id": "BOX-CLIENT-01",
+        "product_name": "Client Gift Box",
+        "price": 29.99
+      }
+    ]
+  }
+]
