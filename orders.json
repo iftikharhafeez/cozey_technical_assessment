@@ -8,13 +8,13 @@
     "customer_email": "john@example.com",
     "line_items": [
       {
-        "line_item_id": "LI-001",
+        "line_item_id": "LI-1",
         "product_id": "BOX-VAL-01",
         "product_name": "Valentines Box",
         "price": 29.99
       },
       {
-        "line_item_id": "LI-002",
+        "line_item_id": "LI-2",
         "product_id": "BOX-BDAY-01",
         "product_name": "Birthday Box",
         "price": 29.99
@@ -30,7 +30,7 @@
     "customer_email": "rob@example.com",
     "line_items": [
       {
-        "line_item_id": "LI-003",
+        "line_item_id": "LI-3",
         "product_id": "BOX-VAL-01",
         "product_name": "Valentines Box",
         "price": 29.99
@@ -46,7 +46,7 @@
     "customer_email": "dan@example.com",
     "line_items": [
       {
-        "line_item_id": "LI-004",
+        "line_item_id": "LI-4",
         "product_id": "BOX-BDAY-01",
         "product_name": "Birthday Box",
         "price": 29.99
@@ -55,26 +55,29 @@
   },
   {
     "order_id": "1004",
-    "order_total": 89.97,
-    "order_date": "2025-04-03T18:52:56.178Z",
-    "shipping_address": "1490 Dundas Street East, Toronto, ON",
-    "customer_name": "Iftikhar",
-    "customer_email": "iftikhar@example.com",
+    "order_total": 89.88,
+    "order_date": "2025-04-04T18:12:59.049Z",
+    "shipping_address": "100 Dundas Street East, Toronto, ON",
+    "customer_name": "iftikhars order",
+    "customer_email": "iftikhar@cozey.com",
     "line_items": [
       {
         "product_id": "BOX-VAL-01",
         "product_name": "Valentines Box",
-        "price": 29.99
+        "price": 29.99,
+        "line_item_id": "LI-5"
       },
       {
         "product_id": "BOX-BDAY-01",
         "product_name": "Birthday Box",
-        "price": 29.99
+        "price": 29.99,
+        "line_item_id": "LI-6"
       },
       {
         "product_id": "BOX-CLIENT-01",
         "product_name": "Client Gift Box",
-        "price": 29.99
+        "price": 29.9,
+        "line_item_id": "LI-7"
       }
     ]
   }
